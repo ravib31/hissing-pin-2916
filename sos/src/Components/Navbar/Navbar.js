@@ -1,5 +1,9 @@
 import React from "react";
-import { IoPersonSharp, FcLike, BiShoppingBag } from "@react-icons/all-files";
+import "./Navbar.css";
+import { Input } from '@chakra-ui/react'
+import { IoPersonSharp } from "react-icons/io5";
+import { FcLike } from "react-icons/fc";
+import { BiShoppingBag } from "react-icons/bi";
 // problem is here icon is not showing
 // and also push problem
 const Navbar = () => {
@@ -21,6 +25,9 @@ const Navbar = () => {
                     </ul>
 
                 </div>
+                <div className="search" style={{ width: "300px", margin: "auto 0px auto 100px" }}>
+                    <Input style={{ background: "white" }} placeholder='search for item and products' />
+                </div>
 
                 <div className="n-right">
                     <ul className="nl-right">
@@ -32,18 +39,17 @@ const Navbar = () => {
 
                         <li>
                             <a href="" target="">
-                                <FcLike />
-                            </a>
+                                <FcLike />                       </a>
                         </li>
-
                         <li>
                             <a href="" target="">
                                 <BiShoppingBag />
-                                <h2>tele</h2>
-                                <h2>tel</h2>
                             </a>
                         </li>
                     </ul>
+
+                </div>
+                <div>
 
                 </div>
 
