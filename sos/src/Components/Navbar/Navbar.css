@@ -114,7 +114,7 @@ li {
   
 }
 
-.menu-link ul li a {
+.menu-link ul li Link {
   text-transform: capitalize;
   color: white;
   transition: 0.5s;
