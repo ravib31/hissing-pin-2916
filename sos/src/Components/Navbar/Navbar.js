@@ -4,6 +4,8 @@ import { Input } from '@chakra-ui/react'
 import { IoPersonSharp } from "react-icons/io5";
 import { FcLike } from "react-icons/fc";
 import { BiShoppingBag } from "react-icons/bi";
+// import { Link } from "react-router-dom";
+// import  SignIn from "../../Components/SignIn/SignIn";
 // problem is here icon is not showing
 // and also push problem
 const Navbar = () => {
@@ -35,6 +37,8 @@ const Navbar = () => {
                             <a href="" target="">
                                 <IoPersonSharp />
                             </a>
+                            
+
                         </li>
 
                         <li>
@@ -46,7 +50,9 @@ const Navbar = () => {
                                 <BiShoppingBag />
                             </a>
                         </li>
+                       
                     </ul>
+                  
 
                 </div>
                 <div>

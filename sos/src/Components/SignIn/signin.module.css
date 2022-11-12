@@ -1,0 +1,114 @@
+.joinSection{
+    background-color: white;
+    width: 45%;
+    margin: auto;
+    padding-bottom: 50px;
+    margin-top: -10px;
+}
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: auto;
+}
+.input{
+    border: 1px solid;
+    height: 43px;
+}
+.label{
+    padding: 17px 0px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #767676;
+    letter-spacing: 1.5px;
+}
+.signinButton{
+    background-color: #2d2d2d;
+    color: white;
+    margin: 20px 0px 15px 0px;
+    border: none;
+    height: 40px;
+    font-size: 15.5px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+.signinButton:hover{
+    background-color: #838383;
+}
+.forget{
+    font-size: 13.5px;
+    text-align: center;
+    cursor: pointer;
+}
+.forget:hover{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    color: grey;
+}
+.heading1{
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin: 40px 0px 20px 0px;
+}
+.gridButtons{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    justify-content: center;
+    gap: 10px;
+    width: 60%;
+    margin: auto;
+}
+.gridButton{
+    border: 2px solid #eeeeee;
+    height: 50px;
+    background-color: white;
+    font-size: 14.5px;
+    font-weight: 900;
+    color: #2d2d2d;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.gridButton:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+.googleLogo{
+    height: 20px;
+    width: 20px;
+    padding-left: 27px;
+}
+.appleLogo{
+    height: 27px;
+    width: 39px;
+    padding-left: 17px;
+    margin-bottom: 6px;
+}
+.facebookLogo{
+    width: 16px;
+    height: 16px;
+    padding-left: 30px;
+}
+.twitterLogo{
+    height: 25px;
+    width: 25px;
+    padding-left: 25px;
+}
+.footerLink{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 40px 0px 10px 0px;
+}
+a{
+    font-size: 12px;
+    color: rgb(95, 94, 94);
+}
+.footerline{
+    border-left: 2px solid rgb(143, 143, 143);
+    padding-left: 10px;
+}
