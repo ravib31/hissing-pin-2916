@@ -2,7 +2,7 @@
  import { useNavigate } from 'react-router-dom'
  import styles from "./signin.module.css"
 
-import { RangeSliderFilledTrack } from "@chakra-ui/react";
+// import { RangeSliderFilledTrack } from "@chakra-ui/react";
 
  const SingIn = () => {
      const navigation = useNavigate()
