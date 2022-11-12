@@ -9,6 +9,7 @@ import Footer from './Components/Footer/Footer';
 // import Footer from './Components/Footer/footer';
 // import JoinPage from './Pages/Join Page/JoinPage';
 // import SignIn from "./Components/SignIn/SignIn"
+import AllRoutes from './Components/Routes/AllRoutes';
 
 
 
@@ -16,7 +17,7 @@ function App() {
   return (
     <>
       <Navbar />
-      
+      <AllRoutes/>
       <img src='asos.jpg' className='image'></img>
       <div className='rat'>
         {/* after the image start */}
