@@ -6,6 +6,7 @@ import { FcLike } from "react-icons/fc";
 import { BiShoppingBag } from "react-icons/bi";
 import { Link } from "react-router-dom";
 import  SignIn from "../../Components/SignIn/SignIn";
+// import Men from "../Mens/Men";
 // problem is here icon is not showing
 // and also push problem
 const Navbar = () => {
@@ -21,7 +22,7 @@ const Navbar = () => {
                             <a href="#">WOMEN</a>
                         </li>
                         <li>
-                            <a href="#">MEN</a>
+                            <Link to="/Men">MEN</Link>
                         </li>
 
                     </ul>

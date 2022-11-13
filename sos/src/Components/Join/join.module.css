@@ -1,0 +1,173 @@
+/* .pageDiv{
+    background-color: #eeeeee;
+    padding-bottom: 10px;
+} */
+.joinSection{
+    background-color: white;
+    width: 45%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    /* margin-top: -40px; */
+}
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: auto;
+}
+.input{
+    border: 1px solid;
+    height: 43px;
+}
+.label{
+    padding: 17px 0px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #767676;
+    letter-spacing: 1.5px;
+}
+.signinButton{
+    background-color: #2d2d2d;
+    color: white;
+    margin: 50px 0px 0px 0px;
+    border: none;
+    height: 40px;
+    font-size: 15.5px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+.signinButton:hover{
+    background-color: #838383;
+}
+.radiobox{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: -15px 0px 0px -5px;
+    /* margin-left: -5px; */
+}
+.radiobox > input{
+    font-size: 15px;
+}
+.radiobox > p{
+    font-size: 12px;
+    color: #585858;
+}
+.heading1{
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin: 40px 0px 40px 0px;
+}
+.gridButtons{
+    display: grid;
+    grid-template-columns: repeat(3,180px);
+    justify-content: center;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+}
+.gridButton{
+    border: 2px solid #eeeeee;
+    height: 50px;
+    background-color: white;
+    font-size: 14.5px;
+    font-weight: 900;
+    color: #2d2d2d;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.gridButton:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+.googleLogo{
+    height: 20px;
+    width: 20px;
+    padding-left: 20px;
+}
+.appleLogo{
+    height: 27px;
+    width: 39px;
+    padding-left: 7px;
+    margin-bottom: 6px;
+}
+.facebookLogo{
+    width: 16px;
+    height: 16px;
+    padding-left: 20px;
+}
+.footerLink{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 15px 0px 10px 0px;
+}
+a{
+    font-size: 12px;
+    color: rgb(95, 94, 94);
+}
+.footerline{
+    border-left: 2px solid rgb(143, 143, 143);
+    padding-left: 10px;
+}
+.para{
+    font-size: 13.5px;
+    margin: auto;
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.belowInput{
+    font-size: 11.5px;
+    color: rgb(97, 97, 97);
+    font-weight: 500;
+}
+.contactPref{
+    padding: 17px 0px;
+    font-size: 14px;
+    font-weight: 800;
+    color: rgb(58, 58, 58);
+    letter-spacing: 1.5px;
+    margin: 30px 0px -15px 0px;
+}
+.selectAll{
+    display: flex;
+    justify-content: space-between;
+}
+.selectAll > p{
+    color: rgb(58, 58, 58);
+}
+.selectAll > button{
+    background-color: #eeeeee;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    border: none;
+    width: 120px;
+    height: 33px;
+    margin-top: -10px;
+}
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox p{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+}
+input[type="checkbox"]{
+    width: 25px;
+    height: 25px; 
+}
+input[type="radio"]{
+    width: 22px;
+    height: 22px; 
+}

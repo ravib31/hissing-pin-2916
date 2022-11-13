@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-// import { Route,Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+// import Men from './Components/Mens/Men';
 
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
@@ -10,34 +11,18 @@ import Footer from './Components/Footer/Footer';
 // import JoinPage from './Pages/Join Page/JoinPage';
 // import SignIn from "./Components/SignIn/SignIn"
 import AllRoutes from './Components/Routes/AllRoutes';
+import CarouselsM from './Components/carousel/CarouselM';
 
 
 
 function App() {
   return (
     <>
-      <Navbar />
-      <AllRoutes/>
-      <img src='asos.jpg' className='image'></img>
-      <div className='rat'>
-        {/* after the image start */}
-        <ul>
-          <li>
-            <a>EASY WORLDWIDE DELIVERY</a>
-            <h4>*minimum spend apply</h4>
-          </li>
-          <li>
-            <a >ASOS DESIGN and 850+</a>
-            <h3>brands</h3>
-          </li>
 
-        </ul>
-      </div>
+      <AllRoutes />
+      {/* <home /> */}
 
-      <Footer/>
-     
 
-      
     </>
   );
 }
