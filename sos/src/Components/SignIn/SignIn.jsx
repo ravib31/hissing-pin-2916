@@ -7,8 +7,12 @@
  const SingIn = () => {
      const navigation = useNavigate()
      function onclickhandler(){
+        
          let user=JSON.parse(localStorage.getItem("user"))
          navigation('/')
+     }
+     function join(){
+        navigation('/Join')
      }
    return (
      <div>
@@ -37,6 +41,7 @@
                <button className={styles.gridButton}>
                    <img className={styles.twitterLogo} src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" alt="" />
                    TWITTER</button>
+                   <button style={{}} onClick={join}>JOIN</button>
             </div>
         </div>
         <div className={styles.footerLink}>
